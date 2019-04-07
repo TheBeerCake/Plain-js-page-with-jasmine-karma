@@ -1,0 +1,20 @@
+{
+  "name": "tmpl",
+  "version": "1.0.0",
+  "description": "Simple site with js and karma/jamsine unit tests",
+  "main": "main.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "BeerCake",
+  "license": "ISC",
+  "dependencies": {
+    "karma": "^4.0.1",
+    "karma-jasmine": "^2.0.1",
+    "karma-jasmine-matchers": "^4.0.1",
+    "puppeteer": "^1.14.0"
+  },
+  "devDependencies": {
+    "karma-chrome-launcher": "^2.2.0"
+  }
+}
